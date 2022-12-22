@@ -10,6 +10,7 @@
 
 @media all and (max-width: 767px) {
     .footer__columns {
-        margin-bottom: 48px;
+        margin-bottom: 44px;
+        margin-top: 63px;
     }
 }

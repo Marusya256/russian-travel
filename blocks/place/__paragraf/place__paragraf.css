@@ -16,5 +16,6 @@
         grid-column: 1;
         grid-row: 5;
         margin-top: 25px;
+        max-width: 283px;
     }
 }
