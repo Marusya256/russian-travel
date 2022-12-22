@@ -1,0 +1,22 @@
+.gallery__image_number_nine {
+    background-image: url(../../../../images/foto_9.png);
+}
+
+@media screen and (max-width: 1279px) {
+    .gallery__image_number_nine {
+        background-image: url(../../../../images/foto-9-300.png);
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+    .gallery__image_number_nine {
+        background-image: url(../../../../images/foto_9_tablet.png);
+    }
+}
+
+@media all and (max-width: 767px) {
+    .gallery__image_number_nine {
+        background-image: url(../../../../images/foto-9-mobile.png);
+    }
+}

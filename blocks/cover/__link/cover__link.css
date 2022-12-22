@@ -1,0 +1,45 @@
+.cover__link {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.cover__link::after {
+    content: url(../../../images/baikal__desktop.png);
+    width: 1184px;
+    height: 740px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0.7;
+}
+
+.cover__link:hover::after {
+    opacity: 0.2;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover__link::after {
+        content: url(../../../images/baikal__middle.png);
+        width: 1024px;
+        height: 640px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__link::after {
+        content: url(../../../images/baikal_tablet.png);
+        width: 768px;
+        height: 480px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .cover__link::after {
+        content: url(../../../images/baikal_mobile.png);
+        width: 320px;
+        height: 200px;
+    }
+}

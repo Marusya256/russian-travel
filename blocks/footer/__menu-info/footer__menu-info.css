@@ -1,0 +1,13 @@
+.footer__menu-info {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (max-width: 767px) {
+    .footer__menu-info {
+        max-width: 288px;
+        flex-direction: column;
+    }
+}

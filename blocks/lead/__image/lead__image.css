@@ -1,0 +1,14 @@
+.lead__image {
+    max-width: 984px;
+    max-height: 615px;
+    margin: 64px auto 8px;
+    display: grid;
+    position: relative;
+}
+
+/* @media screen and (max-width: 1024px) {
+    .lead__image {
+        max-width: 928px;
+        max-height: 580px;
+    }
+} */

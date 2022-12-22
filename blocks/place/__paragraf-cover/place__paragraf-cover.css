@@ -1,0 +1,25 @@
+.place__paragraf-cover {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    padding: 0;
+    margin: 0;
+    max-width: 484px;
+    grid-row: 4;
+    grid-column: 2;
+}
+
+@media screen and (max-width: 1023px) {
+    .place__paragraf-cover {
+        grid-row: 3;
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .place__paragraf-cover {
+        grid-row: 5;
+        grid-column: 1;
+        margin: 0 16px;
+    }
+}

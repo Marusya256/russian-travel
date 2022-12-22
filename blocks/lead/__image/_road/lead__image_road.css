@@ -1,0 +1,37 @@
+.lead__image_road {
+    width: 937px;
+    height: 262px;
+    position: absolute;
+    top: 505px;
+    left: 21px;
+    background-image: url(../../../../images/road.svg);
+    background-size: cover;
+}
+
+@media screen and (max-width: 1279px) {
+    .lead__image_road {
+        width: 883px;
+        height: 248px;
+        top: 503px;
+        background-image: url(../../../../images/road-middle.svg);
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .lead__image_road {
+        width: 731px;
+        height: 205px;
+        top: 487px;
+        background-image: url(../../../../images/road-tablet.svg);
+    }
+}
+
+@media all and (max-width: 767px) {
+    .lead__image_road {
+        width: 304px;
+        height: 85px;
+        top: 262px;
+        left: 10px;
+        background-image: url(../../../../images/road-mobile.svg);
+    }
+}

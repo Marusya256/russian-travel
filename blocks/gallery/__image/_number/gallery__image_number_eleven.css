@@ -1,0 +1,21 @@
+.gallery__image_number_eleven {
+    background-image: url(../../../../images/foto_11.png);
+}
+
+@media screen and (max-width: 1279px) {
+    .gallery__image_number_eleven {
+        background-image: url(../../../../images/foto-11-300.png);
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .gallery__image_number_eleven {
+        background-image: url(../../../../images/foto_11_tablet.png);
+    }
+}
+
+@media all and (max-width: 767px) {
+    .gallery__image_number_eleven {
+        background-image: url(../../../../images/foto-11-mobile.png);
+    }
+}
