@@ -5,7 +5,6 @@
 
 @media screen and (max-width: 1023px) {
     .place__paragraf {
-        grid-row: 3;
         margin-top: 25px;
     }
 }

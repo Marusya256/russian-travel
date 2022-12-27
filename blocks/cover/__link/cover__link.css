@@ -7,24 +7,20 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 1184px;
-    height: 740px;
-}
-
-.cover__link::after {
-    content: url(../../../images/baikal__desktop.png);
-    width: 1184px;
-    height: 740px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
+    max-width: 1184px;
+    width: 100%;
+    min-height: 740px;
+    max-height: 740px;
+    background-image: url(../../../images/baikal__desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cover__link::before {
     content: "";
-    width: 1184px;
-    height: 740px;
+    width: 100%;
+    min-height: 740px;
+    max-height: 740px;
     position: absolute;
     top: 0;
     left: 0;
@@ -39,55 +35,46 @@
 
 @media screen and (max-width: 1279px) {
     .cover__link {
-        width: 1024px;
-        height: 640px;
-    }
-
-    .cover__link::after {
-        content: url(../../../images/baikal__middle.png);
-        width: 1024px;
-        height: 640px;
+        max-width: 1024px;
+        max-height: 640px;
+        min-height: 640px;
     }
 
     .cover__link::before {
-        width: 1024px;
-        height: 640px;
+        max-width: 1024px;
+        max-height: 640px;
+        min-height: 640px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .cover__link {
-        width: 768px;
-        height: 480px;
-    }
-
-    .cover__link::after {
-        content: url(../../../images/baikal_tablet.png);
-        width: 768px;
-        height: 480px;
+        max-width: 768px;
+        min-height: 480px;
+        width: 100%;
+        max-height: 480px;
+        margin-top: 18px;
     }
 
     .cover__link::before {
-        width: 768px;
-        height: 480px;
+        max-width: 768px;
+        width: 100%;
+        max-height: 480px;
+        min-height: 480px;
     }
 }
 
 @media all and (max-width: 767px) {
     .cover__link {
-        width: 320px;
-        height: 200px;
+        max-width: 320px;
+        max-height: 200px;
         margin-top: 15px;
-    }
-
-    .cover__link::after {
-        content: url(../../../images/baikal_mobile.png);
-        width: 320px;
-        height: 200px;
+        min-height: 200px;
     }
 
     .cover__link::before {
-        width: 320px;
-        height: 200px;
+        max-width: 320px;
+        max-height: 200px;
+        min-height: 200px;
     }
 }

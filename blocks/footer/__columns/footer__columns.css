@@ -2,12 +2,6 @@
     margin: 92px 0 24px;
 }
 
-@media screen and (max-width: 1023px) {
-    .footer__columns {
-        margin-bottom: 88px;
-    }
-}
-
 @media all and (max-width: 767px) {
     .footer__columns {
         margin-bottom: 44px;
